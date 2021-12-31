@@ -131,9 +131,6 @@ async def howtoroll(ctx):
 
 
 
-@bot.command()
-async def randomroll(ctx):
-  await random.choice(ctx.message.channel.guild.members) ("rickroll")
 
 
 
